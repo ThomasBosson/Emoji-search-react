@@ -1,1 +1,43 @@
 /* Other rules */
+
+.container {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+input[name="search"] {
+  width: 600px;
+  height: 50px;
+  margin: 60px 0;
+  background-color: #ebe3e2;
+  border-radius: 12px;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-results {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1100px;
+  height: 60px;
+  background-color: #fcfbfb;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 20px;
+}
